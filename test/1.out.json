@@ -1,0 +1,820 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "id": {
+        "type": "Identifier",
+        "name": "main",
+        "range": [
+          10,
+          14
+        ],
+        "multiline": false
+      },
+      "params": [],
+      "defaults": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "colors",
+                  "range": [
+                    26,
+                    32
+                  ],
+                  "multiline": false
+                },
+                "init": {
+                  "type": "ArrayExpression",
+                  "elements": [
+                    {
+                      "type": "Literal",
+                      "value": "red",
+                      "raw": "'red'",
+                      "range": [
+                        37,
+                        42
+                      ],
+                      "multiline": false
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "green",
+                      "raw": "'green'",
+                      "range": [
+                        44,
+                        51
+                      ],
+                      "multiline": false
+                    },
+                    {
+                      "type": "Literal",
+                      "value": "blue",
+                      "raw": "'blue'",
+                      "range": [
+                        53,
+                        59
+                      ],
+                      "multiline": false
+                    }
+                  ],
+                  "range": [
+                    35,
+                    61
+                  ],
+                  "multiline": false
+                },
+                "range": [
+                  26,
+                  61
+                ],
+                "trailingNewlines": 0,
+                "multiline": false
+              }
+            ],
+            "kind": "var",
+            "range": [
+              22,
+              62
+            ],
+            "trailingNewlines": 1,
+            "multiline": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "numbers",
+                  "range": [
+                    69,
+                    76
+                  ],
+                  "multiline": false
+                },
+                "init": {
+                  "type": "ArrayExpression",
+                  "elements": [
+                    {
+                      "type": "Literal",
+                      "value": 1,
+                      "raw": "1",
+                      "range": [
+                        81,
+                        82
+                      ],
+                      "multiline": false
+                    },
+                    {
+                      "type": "Literal",
+                      "value": 2,
+                      "raw": "2",
+                      "range": [
+                        84,
+                        85
+                      ],
+                      "multiline": false
+                    },
+                    {
+                      "type": "Literal",
+                      "value": 3,
+                      "raw": "3",
+                      "range": [
+                        91,
+                        92
+                      ],
+                      "multiline": false
+                    },
+                    {
+                      "type": "ObjectExpression",
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "r",
+                            "range": [
+                              95,
+                              96
+                            ],
+                            "multiline": false
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": 4,
+                            "raw": "4",
+                            "range": [
+                              98,
+                              99
+                            ],
+                            "multiline": false
+                          },
+                          "kind": "init",
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "range": [
+                            95,
+                            99
+                          ],
+                          "multiline": false
+                        },
+                        {
+                          "type": "Property",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "i",
+                            "range": [
+                              101,
+                              102
+                            ],
+                            "multiline": false
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": 5,
+                            "raw": "5",
+                            "range": [
+                              104,
+                              105
+                            ],
+                            "multiline": false
+                          },
+                          "kind": "init",
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "range": [
+                            101,
+                            105
+                          ],
+                          "multiline": false
+                        }
+                      ],
+                      "range": [
+                        94,
+                        106
+                      ],
+                      "multiline": false
+                    },
+                    {
+                      "type": "ObjectExpression",
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "r",
+                            "range": [
+                              116,
+                              117
+                            ],
+                            "multiline": false
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": 6,
+                            "raw": "6",
+                            "range": [
+                              119,
+                              120
+                            ],
+                            "multiline": false
+                          },
+                          "kind": "init",
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "range": [
+                            116,
+                            120
+                          ],
+                          "multiline": false
+                        },
+                        {
+                          "type": "Property",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "i",
+                            "range": [
+                              122,
+                              123
+                            ],
+                            "multiline": false
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": 7,
+                            "raw": "7",
+                            "range": [
+                              125,
+                              126
+                            ],
+                            "multiline": false
+                          },
+                          "kind": "init",
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "range": [
+                            122,
+                            126
+                          ],
+                          "multiline": false
+                        }
+                      ],
+                      "range": [
+                        108,
+                        127
+                      ],
+                      "multiline": true
+                    }
+                  ],
+                  "range": [
+                    79,
+                    128
+                  ],
+                  "multiline": true
+                },
+                "range": [
+                  69,
+                  128
+                ],
+                "trailingNewlines": 0,
+                "multiline": true
+              }
+            ],
+            "kind": "var",
+            "range": [
+              65,
+              129
+            ],
+            "trailingNewlines": 1,
+            "multiline": true
+          },
+          {
+            "type": "VariableDeclaration",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "double",
+                  "range": [
+                    162,
+                    168
+                  ],
+                  "multiline": false
+                },
+                "init": {
+                  "type": "FunctionExpression",
+                  "id": null,
+                  "params": [
+                    {
+                      "type": "Identifier",
+                      "name": "x",
+                      "range": [
+                        180,
+                        181
+                      ],
+                      "multiline": false
+                    }
+                  ],
+                  "defaults": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "argument": {
+                          "type": "BinaryExpression",
+                          "operator": "*",
+                          "left": {
+                            "type": "Identifier",
+                            "name": "x",
+                            "range": [
+                              192,
+                              193
+                            ],
+                            "multiline": false
+                          },
+                          "right": {
+                            "type": "Literal",
+                            "value": 2,
+                            "raw": "2",
+                            "range": [
+                              194,
+                              195
+                            ],
+                            "multiline": false
+                          },
+                          "range": [
+                            192,
+                            195
+                          ],
+                          "multiline": false
+                        },
+                        "range": [
+                          185,
+                          196
+                        ],
+                        "trailingNewlines": 0,
+                        "multiline": false
+                      }
+                    ],
+                    "range": [
+                      183,
+                      198
+                    ],
+                    "trailingNewlines": 0,
+                    "multiline": false
+                  },
+                  "rest": null,
+                  "generator": false,
+                  "expression": false,
+                  "range": [
+                    171,
+                    198
+                  ],
+                  "multiline": false
+                },
+                "range": [
+                  162,
+                  198
+                ],
+                "trailingNewlines": 0,
+                "multiline": false
+              }
+            ],
+            "kind": "var",
+            "range": [
+              158,
+              199
+            ],
+            "trailingNewlines": 2,
+            "multiline": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "id": {
+                  "type": "Identifier",
+                  "name": "triple",
+                  "range": [
+                    237,
+                    243
+                  ],
+                  "multiline": false
+                },
+                "init": {
+                  "type": "FunctionExpression",
+                  "id": null,
+                  "params": [
+                    {
+                      "type": "Identifier",
+                      "name": "x",
+                      "range": [
+                        255,
+                        256
+                      ],
+                      "multiline": false
+                    }
+                  ],
+                  "defaults": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "argument": {
+                          "type": "BinaryExpression",
+                          "operator": "*",
+                          "left": {
+                            "type": "Identifier",
+                            "name": "x",
+                            "range": [
+                              271,
+                              272
+                            ],
+                            "multiline": false
+                          },
+                          "right": {
+                            "type": "Literal",
+                            "value": 3,
+                            "raw": "3",
+                            "range": [
+                              281,
+                              282
+                            ],
+                            "multiline": false
+                          },
+                          "range": [
+                            271,
+                            282
+                          ],
+                          "multiline": true
+                        },
+                        "range": [
+                          264,
+                          283
+                        ],
+                        "trailingNewlines": 1,
+                        "multiline": true
+                      }
+                    ],
+                    "range": [
+                      258,
+                      287
+                    ],
+                    "trailingNewlines": 0,
+                    "multiline": true
+                  },
+                  "rest": null,
+                  "generator": false,
+                  "expression": false,
+                  "range": [
+                    246,
+                    287
+                  ],
+                  "multiline": true
+                },
+                "range": [
+                  237,
+                  287
+                ],
+                "trailingNewlines": 0,
+                "multiline": true
+              }
+            ],
+            "kind": "var",
+            "range": [
+              233,
+              288
+            ],
+            "trailingNewlines": 2,
+            "multiline": true
+          },
+          {
+            "type": "FunctionDeclaration",
+            "id": {
+              "type": "Identifier",
+              "name": "render",
+              "range": [
+                301,
+                307
+              ],
+              "multiline": false
+            },
+            "params": [],
+            "defaults": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "argument": {
+                    "type": "XJSElement",
+                    "openingElement": {
+                      "type": "XJSOpeningElement",
+                      "name": {
+                        "type": "XJSIdentifier",
+                        "name": "ul",
+                        "range": [
+                          332,
+                          334
+                        ],
+                        "multiline": false
+                      },
+                      "selfClosing": false,
+                      "attributes": [],
+                      "range": [
+                        331,
+                        335
+                      ],
+                      "multiline": false
+                    },
+                    "closingElement": {
+                      "type": "XJSClosingElement",
+                      "name": {
+                        "type": "XJSIdentifier",
+                        "name": "ul",
+                        "range": [
+                          458,
+                          460
+                        ],
+                        "multiline": false
+                      },
+                      "range": [
+                        456,
+                        461
+                      ],
+                      "multiline": false
+                    },
+                    "children": [
+                      {
+                        "type": "Literal",
+                        "value": "\n        ",
+                        "raw": "\n        ",
+                        "range": [
+                          335,
+                          344
+                        ],
+                        "multiline": true
+                      },
+                      {
+                        "type": "XJSExpressionContainer",
+                        "expression": {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "MemberExpression",
+                            "computed": false,
+                            "object": {
+                              "type": "Identifier",
+                              "name": "colors",
+                              "range": [
+                                356,
+                                362
+                              ],
+                              "multiline": false
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "map",
+                              "range": [
+                                363,
+                                366
+                              ],
+                              "multiline": false
+                            },
+                            "range": [
+                              356,
+                              366
+                            ],
+                            "multiline": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "ArrowFunctionExpression",
+                              "id": null,
+                              "params": [
+                                {
+                                  "type": "Identifier",
+                                  "name": "c",
+                                  "range": [
+                                    367,
+                                    368
+                                  ],
+                                  "multiline": false
+                                }
+                              ],
+                              "defaults": [],
+                              "body": {
+                                "type": "XJSElement",
+                                "openingElement": {
+                                  "type": "XJSOpeningElement",
+                                  "name": {
+                                    "type": "XJSIdentifier",
+                                    "name": "li",
+                                    "range": [
+                                      387,
+                                      389
+                                    ],
+                                    "multiline": false
+                                  },
+                                  "selfClosing": false,
+                                  "attributes": [],
+                                  "range": [
+                                    386,
+                                    390
+                                  ],
+                                  "multiline": false
+                                },
+                                "closingElement": {
+                                  "type": "XJSClosingElement",
+                                  "name": {
+                                    "type": "XJSIdentifier",
+                                    "name": "li",
+                                    "range": [
+                                      423,
+                                      425
+                                    ],
+                                    "multiline": false
+                                  },
+                                  "range": [
+                                    421,
+                                    426
+                                  ],
+                                  "multiline": false
+                                },
+                                "children": [
+                                  {
+                                    "type": "Literal",
+                                    "value": "\n              ",
+                                    "raw": "\n              ",
+                                    "range": [
+                                      390,
+                                      405
+                                    ],
+                                    "multiline": true
+                                  },
+                                  {
+                                    "type": "XJSExpressionContainer",
+                                    "expression": {
+                                      "type": "Identifier",
+                                      "name": "c",
+                                      "range": [
+                                        406,
+                                        407
+                                      ],
+                                      "multiline": false
+                                    },
+                                    "range": [
+                                      405,
+                                      408
+                                    ],
+                                    "multiline": false
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "value": "\n            ",
+                                    "raw": "\n            ",
+                                    "range": [
+                                      408,
+                                      421
+                                    ],
+                                    "multiline": true
+                                  }
+                                ],
+                                "range": [
+                                  386,
+                                  426
+                                ],
+                                "multiline": true
+                              },
+                              "rest": null,
+                              "generator": false,
+                              "expression": true,
+                              "range": [
+                                367,
+                                438
+                              ],
+                              "multiline": true
+                            }
+                          ],
+                          "range": [
+                            356,
+                            439
+                          ],
+                          "multiline": true
+                        },
+                        "range": [
+                          344,
+                          449
+                        ],
+                        "multiline": true
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "\n      ",
+                        "raw": "\n      ",
+                        "range": [
+                          449,
+                          456
+                        ],
+                        "multiline": true
+                      }
+                    ],
+                    "range": [
+                      331,
+                      461
+                    ],
+                    "multiline": true
+                  },
+                  "range": [
+                    316,
+                    468
+                  ],
+                  "trailingNewlines": 1,
+                  "multiline": true
+                }
+              ],
+              "range": [
+                310,
+                472
+              ],
+              "trailingNewlines": 2,
+              "multiline": true
+            },
+            "rest": null,
+            "generator": false,
+            "expression": false,
+            "range": [
+              292,
+              472
+            ],
+            "trailingNewlines": 2,
+            "multiline": true
+          }
+        ],
+        "range": [
+          17,
+          526
+        ],
+        "trailingNewlines": 1,
+        "multiline": true
+      },
+      "rest": null,
+      "generator": false,
+      "expression": false,
+      "range": [
+        1,
+        526
+      ],
+      "trailingNewlines": 1,
+      "multiline": true
+    }
+  ],
+  "range": [
+    1,
+    526
+  ],
+  "comments": [
+    {
+      "type": "Line",
+      "value": " this is a comment",
+      "range": [
+        135,
+        155
+      ]
+    },
+    {
+      "type": "Line",
+      "value": " this is another comment",
+      "range": [
+        203,
+        229
+      ]
+    },
+    {
+      "type": "Line",
+      "value": " this is a comment following by an empty line",
+      "range": [
+        476,
+        523
+      ]
+    }
+  ],
+  "trailingNewlines": 1,
+  "multiline": true
+}
