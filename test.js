@@ -1,6 +1,6 @@
 var fs = require('fs');
 var esprima = require('esprima-fb');
-var estraverse = require('estraverse');
+var estraverse = require('estraverse-fb');
 var attachNewlines = require('./index').attachNewlines;
 var expect = require('chai').expect;
 
