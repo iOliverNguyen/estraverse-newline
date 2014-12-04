@@ -298,7 +298,7 @@
               65,
               129
             ],
-            "trailingNewlines": 1,
+            "trailingNewlines": 2,
             "multiline": true
           },
           {
@@ -796,7 +796,8 @@
       "range": [
         135,
         155
-      ]
+      ],
+      "trailingNewlines": 1
     },
     {
       "type": "Line",
@@ -804,7 +805,8 @@
       "range": [
         203,
         229
-      ]
+      ],
+      "trailingNewlines": 2
     },
     {
       "type": "Line",
@@ -812,7 +814,8 @@
       "range": [
         476,
         523
-      ]
+      ],
+      "trailingNewlines": 2
     }
   ],
   "trailingNewlines": 1,

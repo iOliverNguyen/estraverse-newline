@@ -19,7 +19,7 @@ attachNewlines(ast, code);
 describe('attach newline', function() {
   it('should attach multiline property and trailing newlines', function() {
     var actual = JSON.stringify(ast, '', '  ');
-    var expected = fs.readFileSync('test/1.expect.json').toString().trim();
+    var expected = fs.readFileSync('test/1.expected.json').toString().trim();
 
     fs.writeFileSync('test/1.out.json', actual);
     expect(actual).to.be.equal(expected);

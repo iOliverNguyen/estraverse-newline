@@ -1,3 +1,4 @@
+/*global estraverse:true*/
 (function(exports, estraverse) {
   'use strict';
 
@@ -52,8 +53,10 @@
     }
 
     function getTrailingNewlines(node) {
-      var newlines = source.slice(node.range[1]).match(/^[\r\n]+/);
-      if (!newlines) return 0;
+      var newlines = source.slice(node.range[1]).match(/^[\r\n\s]+/);
+      if (!newlines) {
+        return 0;
+      }
 
       return Math.max(
         (newlines[0].match(/[\r]/g) || []).length,
@@ -81,12 +84,18 @@
       enter: enter
     });
 
+    if (ast.comments) {
+      ast.comments.forEach(function(cmtNode) {
+        cmtNode.trailingNewlines = getTrailingNewlines(cmtNode);
+      });
+    }
+
     return ast;
   }
 
   exports.attachNewlines = attachNewlines;
 
 })(
-  typeof exports === 'object'? exports: this,
-  typeof require === 'function'? require('estraverse-fb'): estraverse
+  typeof exports === 'object' ? exports : this,
+  typeof require === 'function' ? require('estraverse-fb') : estraverse
 );
